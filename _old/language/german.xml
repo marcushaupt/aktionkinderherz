@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<mosinstall version="1.0.0" type="language">
+	<name>German formal - Sie</name>
+	<version>1.0.9</version>
+	<creationDate>2006-06-06</creationDate>
+	<author>joomlaGTT</author>
+	<authorEmail>info@joomlaGTT.de</authorEmail>
+	<files>
+		<filename>german.php</filename>
+		<filename>german.ignore.php</filename>
+	</files>
+</mosinstall>

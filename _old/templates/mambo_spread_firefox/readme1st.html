@@ -1,0 +1,110 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Mambo Spread Firefox!</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body>
+<div align="center">
+<table width="760px">
+<tr>
+<td>
+<font face="Verdana, Arial, Helvetica, sans-serif">
+<h1>Mambo Spread Firefox!</h1>
+<p>Firstly, before anyone goes off half cocked about a ripped design; this template is a side-effect of some work I was doing for a friend. He wanted some nice boxes like the Spread Firefox site, and I figured, why not recreate the whole SF design as a Mambo template? It may be an unconventional way to spread the word of Firefox, yet it will still get the word out.</p>
+
+<p>Think of it as the equivalent of a fan site, without the content. ;)
+</p>
+<p>Most of it was developed from scratch, with the aid of a colour picker. Gone is the lovely tableless layout of the original, replaced with old school nested tables. I also designed the coloured boxes, although the header logo was taken from the SF site I redesigned the header box to fit into my ugly nested tables. I've also hardcoded the download count into the right column, just to further spread firefox.</p>
+
+<p>It's a bit more than just a mimic, however, this template also allows for five different coloured rounded corner module boxes. Four of the colours are from the boxes on the SF site and I added an orange one to make it more Mambo.</p>
+
+<p>Now, to get this thing to work, there's a few things you'll have to do:</p>
+
+<p>1. I've customised frontend.html.php to allow for rounded corner modules, so you'll have to copy my version over the existing file in your includes directory. This won't affect your other templates, but make sure you keep a backup before you copy. </p>
+   <p>If you've already customised frontend.html.php to allow individual module styling then you may have to do some tinkering, although the moduleclass parameter should cover the basic styling hack.</p>
+
+<p>2. Now you'll have to set your right column modules parameters.</p>
+   <p>In the parameter box enter one of the following:</p>
+   colour=green<br />
+   colour=grey<br />
+   colour=blue<br />
+   colour=yellow<br />
+   colour=orange<br />
+<br />
+   <p>And yes, that is how colour is spelt over here. :P</p>
+
+<p>3. For the left hand column I've created another custom module, so enter these parameters:</p>
+   <p>moduleclass=plain</p>
+
+   <p>For the login module and user menu:</p>
+   <p>moduleclass=login</p>
+
+<p>4. For the newsflash to look like the original, set it's module parameter colour to yellow, disable the module title and make sure it only appears on the home page. Now the newsflash will appear on the frontpage, all other pages will contain the breadcrumbs pathway.</p>
+
+<p>That's it, you've now got something similar to the Spread Firefox site for Mambo. :)
+</p>
+
+<h2>CUSTOMISATION</h2>
+
+<p>You can of course customise this template for your own uses. The customised rounded corner module hack could come in handy for some of you, I'm sure.</p>
+
+<p>To make your own coloured boxes, simply create your own borders with the following names.</p>
+
+(yourcolour)topleft.jpg<br />
+(yourcolour)top.jpg<br />
+(yourcolour)topright.jpg<br />
+(yourcolour)left.jpg<br />
+(yourcolour)right.jpg<br />
+(yourcolour)botleft.jpg<br />
+(yourcolour)bot.jpg<br />
+(yourcolour)botright.jpg<br />
+<br />
+<p>They don't have to be jpg's of course, and you could also use transparent gifs or pngs to allow for different body background colours.
+</p>
+<p>The main colour of the box is set in the stylesheet as a background colour in:</p>
+
+<p>.table(yourcolour)</p>
+
+<p>The borders are also set as backgrounds in the stylesheet under the same titles as the images:</p>
+
+.(yourcolour)topleft<br />
+.(yourcolour)top<br />
+.(yourcolour)topright<br />
+.(yourcolour)left<br />
+.(yourcolour)right<br />
+.(yourcolour)botleft<br />
+.(yourcolour)bot<br />
+.(yourcolour)botright<br />
+<br />
+<p>I've also allowed for styled headers for these boxes, which are handled with this messy CSS:
+</p>
+<p>table.moduletable th.(yourcolour)</p>
+
+<p>The header box is partially coded into the template, with the left side with the logo and corners taking up 333px. You could change this to be only as wide as the corners, and then put your own custom logo in the middle of the header. Or you could do the same thing I did and make a chunk with your logo in it.</p>
+
+<p>The stylesheet is a bit of a mess, but with a bit of tinkering it's not hard. ;)</p>
+
+<h2>EPILOGUE</h2>
+
+<p>Ok, well it's all a bit over the top for a novelty template I guess, although you could customise it to your own needs or even just use the frontend.html.php hack.</p>
+
+<p>This release is only for Mambo 4.5 1.0.9, as that is the setup my mate was using at the time. <blink>DO NOT ATTEMPT TO INSTALL THIS TEMPLATE ON 4.5.1!!!</blink></p>
+
+<p>I'll release a 4.5.1 version soon, at the moment I'm a bit pressed for time.</p>
+
+<p>If you use this template or the hack, please consider donating to Firefox. You'll get the satisfaction of knowing you're supporting the best browser on the planet, and you'll even get nifty stuff such as CDs and T-Shirts in return.</p>
+
+<p>In the event you're planning to use the hack or template in a production site, email me and let me know about it. You could even send me the shirt from your donation if you're really appreciative, get in touch and I'll give you my postal address ;)</p>
+
+<p>Cheers,</p>
+
+<p>Damian</p>
+
+<a href="#" onClick="javascript:window.history.back();">.: back to mambo :.</a>
+</font></td></tr></table>
+</div>
+</body>
+</html>

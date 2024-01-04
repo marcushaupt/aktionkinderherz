@@ -1,0 +1,21 @@
+###############################################
+#
+# hostweb Konfigurationsfile für CGI
+#
+###############################################
+#
+# Hier bitte den Usernamen eintragen (dieser wird
+# z.B. beim FTP-Loggin benutzt und lautet ähnlich
+# / gleich wie Ihre Domain.
+#
+# Beispiel:
+#
+# Domain: www.Frank-Meyer.de
+#
+# usercfg = "frankmeyerde";
+# domaincfg = "frank-meyer.de";
+#
+################################################
+
+$usercfg = "aktionkinder";
+$domaincfg = "aktionkinderherz.de";

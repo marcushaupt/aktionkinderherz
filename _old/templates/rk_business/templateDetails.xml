@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<mosinstall type="template">
+<name>rk_business</name>
+<creationDate>21.02.2005 21:00:00</creationDate>
+<author>Roland Kammerer</author>
+<copyright>(c) 2005 </copyright>
+<authorEmail>info@rkwebdesign.de</authorEmail>
+<authorUrl>http://www.rkwebdesign.de</authorUrl>
+<version>1.1</version>
+<description>This free Template is powered by RKWebDesign (www.rkwebdesign.de)</description>
+<files>
+<filename>index.php</filename>
+<filename>template_thumbnail.png</filename>
+<filename>favicon.ico</filename>
+</files>
+<images>
+<filename>images/indent1.png</filename>
+<filename>images/indent2.png</filename>
+<filename>images/indent3.png</filename>
+<filename>images/indent4.png</filename>
+<filename>images/rkbusiness_back.gif</filename>
+<filename>images/rkbusiness_bb.gif</filename>
+<filename>images/rkbusiness_bullet.png</filename>
+<filename>images/rkbusiness_center2.jpg</filename>
+<filename>images/rkbusiness_header.gif</filename>
+<filename>images/rkbusiness_lb.gif</filename>
+<filename>images/rkbusiness_ltop.jpg</filename>
+<filename>images/rkbusiness_modul.jpg</filename>
+<filename>images/rkbusiness_r1_c1.jpg</filename>
+<filename>images/rkbusiness_r1_c5.jpg</filename>
+<filename>images/rkbusiness_r1_c6.jpg</filename>
+<filename>images/rkbusiness_r1_c7.jpg</filename>
+<filename>images/rkbusiness_r2_c1.gif</filename>
+<filename>images/rkbusiness_r3_c1.jpg</filename>
+<filename>images/rkbusiness_r4_c2.jpg</filename>
+<filename>images/rkbusiness_r4_c4.jpg</filename>
+<filename>images/rkbusiness_r5_c1.jpg</filename>
+<filename>images/rkbusiness_rb.gif</filename>
+<filename>images/rkbusiness_read.gif</filename>
+<filename>images/rkbusiness_rtop.jpg</filename>
+<filename>images/rkbusiness_shadowl.jpg</filename>
+<filename>images/rkbusiness_shadowr.jpg</filename>
+</images>
+<css>
+<filename>css/template_css.css</filename>
+</css>
+</mosinstall>

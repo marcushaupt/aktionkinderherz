@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<mosinstall type="template">
+	<name>Re-look</name>
+	<creationDate>July 28th 2004</creationDate>
+	<author>CorePHP.com Designers - :: Steven Pignataro :: Arnes Hadzic ::</author>
+	<copyright>This template is released under the GNU/GPL License and is distrubuted for Mambo 4.5.1 release</copyright>
+	<authorEmail>steven_joseph_p@yahoo.com</authorEmail>
+	<authorUrl>www.corephp.com</authorUrl>
+	<version>4.5.1 Release Look 1</version>
+	<description>For Mambo 4.5.1</description>
+	<files>
+		<filename>index.php</filename>
+		<filename>template_thumbnail.png</filename>
+	</files>
+	<images>
+		<filename>images/bullet_two.gif</filename>
+	</images>
+	<css>
+		<filename>css/template_css.css</filename>
+	</css>
+</mosinstall>

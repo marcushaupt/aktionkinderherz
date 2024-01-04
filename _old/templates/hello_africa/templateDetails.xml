@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<mosinstall type="template" version="4.5.1">
+  <name>hello_africa</name>
+  <creationDate>02/09/2005</creationDate>
+  <author>Anch - Gorsk.net Studio</author>
+  <copyright>This template is released under GNU/GPL License.</copyright>
+  <authorEmail>design@gorsk.net</authorEmail>
+  <authorUrl>support.gorsk.net</authorUrl>
+  <version>1.0</version>
+  <description>Thinking about Joomla CMS :)</description>
+  <files>
+    <filename>index.php</filename>
+    <filename>index.html</filename>
+    <filename>template_thumbnail.png</filename>
+  </files>
+  <images>
+    <filename>images/index.html</filename>
+    <filename>images/arrow.png</filename>
+    <filename>images/art_bg.jpg</filename>
+    <filename>images/bottom.jpg</filename>
+    <filename>images/header.jpg</filename>
+    <filename>images/indent1.png</filename>
+    <filename>images/left_bg.gif</filename>
+    <filename>images/menu_bg.gif</filename>
+    <filename>images/mod_bg.jpg</filename>
+    <filename>images/orange_bg.gif</filename>
+    <filename>images/path_bg.gif</filename>
+    <filename>images/search.gif</filename>
+    <filename>images/separator.gif</filename>
+    <filename>images/topmod_bg.gif</filename>
+  </images>
+  <css>
+    <filename>css/index.html</filename>
+    <filename>css/template_css.css</filename>
+  </css>
+</mosinstall>

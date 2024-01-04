@@ -1,0 +1,6 @@
+AuthType Basic
+AuthUserFile /home/aktionkinder/htdocs/stats/passwd
+AuthGroupFile /home/aktionkinder/htdocs/stats/group
+AuthName "Stats"
+require valid-user
+order deny,allow
