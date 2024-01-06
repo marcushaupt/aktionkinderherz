@@ -1239,20 +1239,6 @@ html.w-mod-js *[data-ix="show-navbar"] {
 
   .burger {
     padding-top: 1px;
-    cursor: pointer;
-    display: none; /* Hide the burger menu by default on larger screens */
-  }
-
-  @media only screen and (max-width: 768px) {
-    /* Show the burger menu on smaller screens */
-    .burger {
-      display: block;
-    }
-    
-    #mobile-menu {
-      display: none;
-      /* Add styles for the mobile menu here */
-    }
   }
 
   .row-3 {
