@@ -1,6 +1,0 @@
-AuthType Basic
-AuthUserFile /home/aktionkinder/htdocs/phpfilemanager/passwd
-AuthGroupFile /home/aktionkinder/htdocs/phpfilemanager/group
-AuthName "PHP Filemanager"
-require valid-user
-order deny,allow
